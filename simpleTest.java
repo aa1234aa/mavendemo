@@ -11,7 +11,7 @@ public class simpleTest {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get("http://www.baidu.com");
         driver.findElement(By.id("kw")).sendKeys("selenium");
-        driver.findElement(By.cssSelector("input[id='su']"));
+        driver.findElement(By.cssSelector("input[id='susssssssss']"));
         driver.quit();
     }
 }
