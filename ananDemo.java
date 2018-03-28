@@ -18,7 +18,6 @@ public class ananDemo {
         driver.findElement(By.id("password")).sendKeys("1");
         driver.findElement(By.xpath(".//*[@id='f1']/button")).click();
         driver.findElement(By.cssSelector("div[class='navbarHover']")).click();
-        Thread.sleep(300);
         //Select select =new Select(driver.findElement(By.id("AA")));下拉框
       //  WebElement element=driver.findElement(By.id("aa"));//除了下拉框以外的定位
         //element.click();   //div[@class="todotask-main"] /ul/li[3]
